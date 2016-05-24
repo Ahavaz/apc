@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B0F4049F-D4E4-44FC-89A4-8CCF8C36DB37}</ProjectGuid>
+    <ProjectGuid>{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69}</ProjectGuid>
     <Compiler>
       <Compiler ctype="GccCompiler" />
     </Compiler>
@@ -14,7 +14,7 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug</OutputPath>
     <Externalconsole>true</Externalconsole>
-    <OutputName>strings</OutputName>
+    <OutputName>strings01</OutputName>
     <CompileTarget>Bin</CompileTarget>
     <DefineSymbols>DEBUG MONODEVELOP</DefineSymbols>
     <SourceDirectory>.</SourceDirectory>
@@ -22,13 +22,13 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release</OutputPath>
     <Externalconsole>true</Externalconsole>
-    <OutputName>strings</OutputName>
+    <OutputName>strings01</OutputName>
     <CompileTarget>Bin</CompileTarget>
     <OptimizationLevel>3</OptimizationLevel>
     <DefineSymbols>MONODEVELOP</DefineSymbols>
     <SourceDirectory>.</SourceDirectory>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ex01.c" />
+    <Compile Include="main.c" />
   </ItemGroup>
 </Project>

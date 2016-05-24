@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{2857B73E-F847-4B02-9238-064979017E93}") = "vetores", "vetores\vetores.cproj", "{9D094D11-00F9-41E8-B361-F0A9714B46FA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "strings", "strings", "{E3A2B135-0B5C-419D-ACA1-25C1B2F8C3BF}"
 EndProject
-Project("{2857B73E-F847-4B02-9238-064979017E93}") = "strings", "Strings\strings.cproj", "{B0F4049F-D4E4-44FC-89A4-8CCF8C36DB37}"
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "strings01", "strings01\strings01.cproj", "{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vetores", "vetores", "{0F4C36B3-1A29-4E2F-BBF6-69DDD5E5EA7E}"
+EndProject
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "vetores01", "vetores01\vetores01.cproj", "{0C8956B7-F559-43BB-8811-1100676087D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9D094D11-00F9-41E8-B361-F0A9714B46FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D094D11-00F9-41E8-B361-F0A9714B46FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D094D11-00F9-41E8-B361-F0A9714B46FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D094D11-00F9-41E8-B361-F0A9714B46FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0F4049F-D4E4-44FC-89A4-8CCF8C36DB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0F4049F-D4E4-44FC-89A4-8CCF8C36DB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0F4049F-D4E4-44FC-89A4-8CCF8C36DB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0F4049F-D4E4-44FC-89A4-8CCF8C36DB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8956B7-F559-43BB-8811-1100676087D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8956B7-F559-43BB-8811-1100676087D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8956B7-F559-43BB-8811-1100676087D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8956B7-F559-43BB-8811-1100676087D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27F5CE1F-7A7F-400D-9B0F-2B205BA90D69} = {E3A2B135-0B5C-419D-ACA1-25C1B2F8C3BF}
+		{0C8956B7-F559-43BB-8811-1100676087D2} = {0F4C36B3-1A29-4E2F-BBF6-69DDD5E5EA7E}
 	EndGlobalSection
 EndGlobal

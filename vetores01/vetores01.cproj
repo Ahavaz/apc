@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D094D11-00F9-41E8-B361-F0A9714B46FA}</ProjectGuid>
+    <ProjectGuid>{0C8956B7-F559-43BB-8811-1100676087D2}</ProjectGuid>
     <Compiler>
       <Compiler ctype="GccCompiler" />
     </Compiler>
@@ -14,7 +14,7 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug</OutputPath>
     <Externalconsole>true</Externalconsole>
-    <OutputName>vetores</OutputName>
+    <OutputName>vetores01</OutputName>
     <CompileTarget>Bin</CompileTarget>
     <DefineSymbols>DEBUG MONODEVELOP</DefineSymbols>
     <SourceDirectory>.</SourceDirectory>
@@ -22,13 +22,13 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release</OutputPath>
     <Externalconsole>true</Externalconsole>
-    <OutputName>vetores</OutputName>
+    <OutputName>vetores01</OutputName>
     <CompileTarget>Bin</CompileTarget>
     <OptimizationLevel>3</OptimizationLevel>
     <DefineSymbols>MONODEVELOP</DefineSymbols>
     <SourceDirectory>.</SourceDirectory>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ex01.c" />
+    <Compile Include="main.c" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿﻿/* Faça um programa que lê as notas de n alunos, cada nota é um inteiro entre 0 e 100, e
+﻿/* Faça um programa que lê as notas de n alunos, cada nota é um inteiro entre 0 e 100, e
 imprima a quantidade de vezes com que apareceu cada nota. */
 
 #include <stdio.h>
@@ -10,8 +10,10 @@ int main () {
 	scanf("%d", &n);
 	int a[n];
 
+	puts("");
+
 	for(int i = 0; i < n; i++) {
-		printf("Insira a nota do aluno %d: ", i+1);
+		printf("Insira a nota do aluno %2d: ", i+1);
 		scanf("%d", &a[i]);
 	}
 	
@@ -25,6 +27,8 @@ int main () {
 			}
 		}
 	}
+
+	puts("");
 
 	int count = 1;
 	for(int i = 0; i < n; i++) {
