@@ -18,6 +18,8 @@ Makefile.in
 *.pidb
 *.userprefs
 *.usertasks
+*.cproj
+*.sln
 config.log
 config.make
 config.status
