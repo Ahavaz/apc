@@ -4,11 +4,12 @@
  com que apareceu cada nota.
  ======================================================================================================================
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir a saída corretamente no console interno do eclipse
 
 	int n;
 
