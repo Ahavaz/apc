@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir a saída corretamente no console interno do eclipse
+	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir corretamente a saída no console interno do eclipse
 
 	int n, sup = 0;
 
