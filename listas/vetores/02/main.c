@@ -1,16 +1,14 @@
 /*
- ======================================================================================================================
+ ============================================================================================================================
  Faça um programa que lê um número n, depois lê n números reais e o programa imprime, em relação aos números reais, o
  maior valor, o menor valor, a média e quantos números foram maiores ou iguais a média.
- ======================================================================================================================
+ ============================================================================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir corretamente a saída no console interno do eclipse
-
 	int n, sup = 0;
 
 	printf("Digite a quantidade de números reais: ");
