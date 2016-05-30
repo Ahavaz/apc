@@ -12,7 +12,7 @@
 int main() {
 	int t = 30, k = 0, n, tp = 5, ti = tp, par[tp], imp[ti], p = 0, i = 0;
 
-	printf("Insira %d valores inteiros.\n\n", t);
+	printf("Insira %d valores inteiros.\n", t);
 
 	while (k++ < t && p + i != tp + ti) {
 		printf("Valor %2d: ", k);
@@ -20,18 +20,16 @@ int main() {
 
 		if (n % 2 == 0) {
 			if (p == tp) {
-				printf("O vetor dos pares está cheio.\n");
-				continue;
+				puts("O vetor dos pares está cheio.");
+			} else {
+				par[p++] = n;
 			}
-			par[p] = n;
-			p++;
 		} else {
 			if (i == ti) {
-				printf("O vetor dos ímpares está cheio.\n");
-				continue;
+				puts("O vetor dos ímpares está cheio.");
+			} else {
+				imp[i++] = n;
 			}
-			imp[i] = n;
-			i++;
 		}
 	}
 
@@ -41,9 +39,9 @@ int main() {
 		while (++k < p - 1) {
 			printf("%d, ", par[k]);
 		}
-		printf("%d }\n", par[p - 1]);
+		printf("%d }\n", par[k]);
 	} else {
-		printf("\nO vetor dos pares está vazio.");
+		printf("\nO vetor dos pares está vazio.\n");
 	}
 
 	if (i > 0) {
@@ -52,7 +50,7 @@ int main() {
 		while (++k < i - 1) {
 			printf("%d, ", imp[k]);
 		}
-		printf("%d }\n", imp[i - 1]);
+		printf("%d }\n", imp[k]);
 	} else {
 		printf("\nO vetor dos ímpares está vazio.\n");
 	}
