@@ -11,7 +11,7 @@
 int main() {
 	int l = 101, len;
 	char s[l], c = '*';
-
+	
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
 	gets(s);
 
