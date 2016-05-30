@@ -21,7 +21,7 @@ int main() {
 			case 'A':
 			case 'a':
 				s[i] = c;
-				break;
+				break
 			case 'E':
 			case 'e':
 				s[i] = c;
