@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 4, v[t], aux;
+	int t = 20, v[t], aux;
 
 	printf("Insira os %d valores inteiros do vetor V.\n", t);
 
@@ -18,13 +18,19 @@ int main() {
 		scanf("%d", &v[i]);
 	}
 
+	printf("\nV: { ");
+	for (int i = 0; i < t - 1; i++) {
+		printf("%d, ", v[i]);
+	}
+	printf("%d }\n", v[t - 1]);
+
 	for (int i = 0, j = t - 1 - i; i < j; i++, j--) {
 		aux = v[i];
 		v[i] = v[j];
 		v[j] = aux;
 	}
 
-	printf("\nO vetor V em ordem invertida é: { ");
+	printf("\nV em ordem invertida: { ");
 	for (int i = 0; i < t - 1; i++) {
 		printf("%d, ", v[i]);
 	}
