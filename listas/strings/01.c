@@ -9,8 +9,6 @@
 #include <string.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir corretamente a saída no console interno do eclipse
-
 	int n = 3, l = 21;
 	char a[n][l], s[l];
 
@@ -23,7 +21,7 @@ int main() {
 
 	for (int i = 0; i < n - 1; i++) {
 		for (int j = i + 1; j < n; j++) {
-			if (strcmp(a[i], a[j]) > 0) {
+			if (strcasecmp(a[i], a[j]) > 0) {
 				strcpy(s, a[i]);
 				strcpy(a[i], a[j]);
 				strcpy(a[j], s);
