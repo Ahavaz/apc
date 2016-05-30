@@ -31,14 +31,10 @@ int main() {
 
 	printf("\nO vetor R resultante do produto entre os vetores A e B é:");
 	printf("\nR: { ");
-
-	for (int i = 0; i < t; i++) {
-		if (i == t - 1) {
-			printf("%d }\n", r[i]);
-			break;
-		}
+	for (int i = 0; i < t - 1; i++) {
 		printf("%d, ", r[i]);
 	}
+	printf("%d }\n", r[t - 1]);
 
 	return 0;
 }
