@@ -9,8 +9,6 @@
 #include <string.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir corretamente a saída no console interno do eclipse
-
 	int l = 101, len, k = 0;
 	char s[l], c;
 
