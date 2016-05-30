@@ -18,25 +18,25 @@ int main() {
 	len = strlen(s);
 	for (int i = 0; i < len; i++) {
 		switch (s[i]) {
-		case 'A':
-		case 'a':
-			s[i] = c;
-			break;
-		case 'E':
-		case 'e':
-			s[i] = c;
-			break;
-		case 'I':
-		case 'i':
-			s[i] = c;
-			break;
-		case 'O':
-		case 'o':
-			s[i] = c;
-			break;
-		case 'U':
-		case 'u':
-			s[i] = c;
+			case 'A':
+			case 'a':
+				s[i] = c;
+				break;
+			case 'E':
+			case 'e':
+				s[i] = c;
+				break;
+			case 'I':
+			case 'i':
+				s[i] = c;
+				break;
+			case 'O':
+			case 'o':
+				s[i] = c;
+				break;
+			case 'U':
+			case 'u':
+				s[i] = c;
 		}
 	}
 
