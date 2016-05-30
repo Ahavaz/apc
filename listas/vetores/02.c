@@ -43,7 +43,7 @@ int main() {
 	printf("\nO maior valor é %.2f\n", maior);
 	printf("O menor valor é %.2f\n", menor);
 	printf("A média é %.2f\n", media);
-	printf("Há %d número(s) na média ou acima dela\n", sup);
+	printf("Há %d número(s) na média ou acima dela.\n", sup);
 
 	return 0;
 }
