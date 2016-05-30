@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 5, v[t], p[t], k = 0;
+	int t = 50, v[t], p[t], k = 0;
 
 	printf("Insira os %d valores inteiros do vetor V.\n", t);
 
