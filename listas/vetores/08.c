@@ -21,14 +21,10 @@ int main() {
 	}
 
 	printf("\nV: { ");
-
-	for (int i = 0; i < t; i++) {
-		if (i == t - 1) {
-			printf("%d }\n", v[i]);
-			break;
-		}
+	for (int i = 0; i < t - 1; i++) {
 		printf("%d, ", v[i]);
 	}
+	printf("%d }\n", v[t - 1]);
 
 	printf("Há %d valor(es) par no vetor V.\n", p);
 
