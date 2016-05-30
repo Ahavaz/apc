@@ -17,7 +17,7 @@ int main() {
 
 	len = strlen(s);
 	for (int i = 0; i < len; i++) {
-		switch ((unsigned char) s[i]) {
+		switch (s[i]) {
 		case 'A':
 		case 'a':
 			s[i] = c;
