@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 50, v[t], p[t], k = 0;
+	int t = 5, v[t], p[t], k = 0;
 
 	printf("Insira os %d valores inteiros do vetor V.\n", t);
 
@@ -22,12 +22,12 @@ int main() {
 	}
 
 	if (k > 0) {
-		int i = 0;
+		int i = -1;
 		printf("\nValores positivos: { ");
-		while (i < k - 1) {
-			printf("%d, ", p[i++]);
+		while (++i < k - 1) {
+			printf("%d, ", p[i]);
 		}
-		printf("%d }\n", p[k - 1]);
+		printf("%d }\n", p[i]);
 	} else {
 		printf("\nNão há valores positivos em V.\n");
 	}
