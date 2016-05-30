@@ -9,8 +9,6 @@
 #include <string.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0); // comando para imprimir corretamente a saída no console interno do eclipse
-
 	int l = 101, len;
 	char s[l], c = '*';
 
@@ -19,47 +17,25 @@ int main() {
 
 	len = strlen(s);
 	for (int i = 0; i < len; i++) {
-		switch (s[i]) {
+		switch ((unsigned char)s[i]) {
 			case 'A':
-			case 'À':
-			case 'Á':
-			case 'Â':
-			case 'Ã':
 			case 'a':
-			case 'à':
-			case 'á':
-			case 'â':
-			case 'ã':
 				s[i] = c;
 				break;
 			case 'E':
-			case 'É':
-			case 'Ê':
 			case 'e':
-			case 'é':
-			case 'ê':
 				s[i] = c;
 				break;
 			case 'I':
-			case 'Í':
 			case 'i':
-			case 'í':
 				s[i] = c;
 				break;
 			case 'O':
-			case 'Ó':
-			case 'Ô':
-			case 'Õ':
 			case 'o':
-			case 'ó':
-			case 'ô':
-			case 'õ':
 				s[i] = c;
 				break;
 			case 'U':
-			case 'Ú':
 			case 'u':
-			case 'ú':
 				s[i] = c;
 		}
 	}
