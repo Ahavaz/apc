@@ -1,6 +1,6 @@
 /*
  ============================================================================================================================
- Faça um programa que lê uma string e verifica se ela é palíndrome.
+ Faça um programa que pede ao usuário para digitar uma string e troque as vogais por '*'.
  ============================================================================================================================
  */
 
@@ -10,22 +10,30 @@
 
 int main() {
 	int l = 101, len;
-	char s[l];
-	_Bool b = 1;
+	char s[l], c = '*';
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
-
-	fgets(s, l, stdin);
+	gets(s);
 
 	len = strlen(s);
-	for (int i = 0, j = len - i - 1; i < j; i++, j--) {
-		if (s[i] != s[j]) {
-		    b = 0;
-		    break;
+	for (int i = 0; i < len; i++) {
+		switch (s[i]) {
+			case 'A':
+			case 'a':
+			case 'E':
+			case 'e':
+			case 'I':
+			case 'i':
+			case 'O':
+			case 'o':
+			case 'U':
+			case 'u':
+				s[i] = "";
 		}
 	}
 
-    b ? printf("A string é palíndrome.") : printf("A string não é palíndrome.");
-    
+	puts("");
+	puts(s);
+
 	return 0;
 }
