@@ -9,14 +9,14 @@
 #include <string.h>
 
 int main() {
-	int l = 101, len, c = 0;;
+	int l = 101, len, c = 0, i;
 	char s[l];
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
 	gets(s);
 
 	len = strlen(s);
-	for (int i = 0; i < len; i++) {
+	for (i = 0; i < len; i++) {
 		switch (s[i]) {
 			case 'A':
 			case 'a':
@@ -38,12 +38,10 @@ int main() {
 			case 'u':
 				c++;
 		}
-
-		c = i;
 	}
 
 	puts("");
-	puts(c);
+	puts(i);
 
 	return 0;
 }
