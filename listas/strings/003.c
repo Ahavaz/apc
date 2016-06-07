@@ -25,7 +25,7 @@ int main() {
 		}
 	}
 
-    b ? printf("A string é palíndrome") : printf("A string não é palíndrome");
+    b ? printf("A string é palíndrome.") : printf("A string não é palíndrome.");
     
 	return 0;
 }
