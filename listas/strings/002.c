@@ -1,10 +1,16 @@
+/*
+ ============================================================================================================================
+ Faça um programa que lê uma string e conta quantas vogais existem.
+ ============================================================================================================================
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 int main() {
-	int l = 101, len;
-	char s[l], c = 0;
+	int l = 101, len, c = 0;;
+	char s[l];
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
 	gets(s);
@@ -32,10 +38,12 @@ int main() {
 			case 'u':
 				c++;
 		}
+
+		c = i;
 	}
 
 	puts("");
-	puts(s);
+	puts(c);
 
 	return 0;
 }
