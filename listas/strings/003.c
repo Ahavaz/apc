@@ -9,24 +9,23 @@
 #include <string.h>
 
 int main() {
-	int l = 101, len, c = 0;
-	char s[l], aux;
+	int l = 101, len;
+	char s[l];
+	_Bool b = 1;
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
 
-	gets(s);
+	fgets(s, l, stdin);
 
 	len = strlen(s);
 	for (int i = 0, j = len - i - 1; i < j; i++, j--) {
-		if (s[i] != s[j]) break;
-		c++;
+		if (s[i] != s[j]) {
+		    b = 0;
+		    break;
+		}
 	}
 
-    if (c == len) {
-	    puts("A string é palíndrome");
-    } else {
-        puts("A string não é palíndrome");
-    }
-
+    b ? printf("A string é palíndrome") : printf("A string não é palíndrome");
+    
 	return 0;
 }
