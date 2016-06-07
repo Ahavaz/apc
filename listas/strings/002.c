@@ -41,7 +41,7 @@ int main() {
 	}
 
 	puts("");
-	puts(i);
+	puts(c);
 
 	return 0;
 }
