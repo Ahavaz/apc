@@ -9,39 +9,30 @@
 #include <string.h>
 
 int main() {
-	int l = 101, len, c = 0, i;
+	int l = 101, len, c = 0;
 	char s[l];
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
-	gets(s);
+	fgets(s, l, stdin);
 
 	len = strlen(s);
-	for (i = 0; i < len; i++) {
+	for (int i = 0; i < len; i++) {
 		switch (s[i]) {
 			case 'A':
 			case 'a':
-				c++;
-				break;
 			case 'E':
 			case 'e':
-				c++;
-				break;
 			case 'I':
 			case 'i':
-				c++;
-				break;
 			case 'O':
 			case 'o':
-				c++;
-				break;
 			case 'U':
 			case 'u':
 				c++;
 		}
 	}
 
-	puts("");
-	puts(c);
+	printf("A string contem %d vogais.", c);
 
 	return 0;
 }
