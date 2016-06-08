@@ -10,7 +10,7 @@
 #include <math.h>
 
 int main() {
-	int t = 15, k[t], p[t], c = 0, n = 0;
+	int t = 15, k[t], p[t], aux, a[t], c = 0, n = 0;
 
 	printf("Insira os %d valores inteiros do vetor K.\n", t);
 
@@ -30,10 +30,24 @@ int main() {
 			}
 		}
 	}
+
+	int aux;
+	for (int i = 0; i < t - 1; i++) {
+		for (int j = i + 1; j < t; j++) {
+			if (p[i] > p[j]) {
+				aux = p[i];
+				p[i] = p[j];
+				p[j] = aux;
+			}
+		}
+	}
+
 	int i = -1;
 	printf("\nP: { ");
 	while (++i < n - 1) {
-		printf("%d, ", p[i]);
+		if (p[i] != p[i + 1]) {
+			printf("%d, ", p[i]);
+		}
 	}
 	printf("%d }\n\n", p[i]);
 
