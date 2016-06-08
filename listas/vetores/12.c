@@ -17,11 +17,7 @@ int main() {
 		printf("Posição %2d: ", i + 1);
 		scanf("%d", &v[i]);
 
-		if (v[i] == 0) {
-			n[i] = 1;
-		} else {
-			n[i] = v[i];
-		}
+		n[i] = v[i] == 0 ? 1 : v[i];
 	}
 
 	i = -1;
