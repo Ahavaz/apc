@@ -12,7 +12,7 @@ int main() {
 	int t = 10;
 	float v[t], m;
 
-	printf("Insira os %d valores inteiros do vetor V.\n", t);
+	printf("Insira os %d valores reais do vetor V.\n", t);
 
 	for (int i = 0; i < t; i++) {
 		printf("Posição %2d: ", i + 1);
