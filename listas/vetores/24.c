@@ -9,7 +9,6 @@
 #include <stdlib.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0);
 	int t = 10, a[t], b[t], n;
 
 	printf("Insira os %d valores inteiros do vetor A.\n", t);
