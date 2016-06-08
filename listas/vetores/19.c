@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 5, a[t], b[t], j = 0;
+	int t = 100, a[t], b[t], j = 0;
 
 	printf("Insira os %d valores inteiros do vetor A.\n", t);
 
