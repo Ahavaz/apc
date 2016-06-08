@@ -18,9 +18,6 @@ int main() {
 	for (int i = 0; i < t; i++) {
 		printf("Cliente %3d: ", i + 1);
 		scanf("%d", &q[i]);
-	}
-
-	for (int i = 0; i < t; i++) {
 		g[i] = q[i] / 10;
 	}
 
