@@ -9,22 +9,22 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 10, a[t], b[t], f, n;
+	setvbuf(stdout, NULL, _IONBF, 0);
+	int t = 10, a[t], b[t], n;
 
 	printf("Insira os %d valores inteiros do vetor A.\n", t);
 
 	for (int i = 0; i < t; i++) {
 		printf("Posição %d: ", i + 1);
 		scanf("%d", &a[i]);
-		f = a[i];
-		n = f;
+		b[i] = a[i];
+		n = b[i];
 		while (n > 2) {
-			f *= --n;
+			b[i] *= --n;
 		}
-		if (f == 0) {
-			f = 1;
+		if (b[i] == 0) {
+			b[i] = 1;
 		}
-		b[i] = f;
 	}
 
 	int i = -1;
