@@ -20,7 +20,7 @@ int main() {
 	printf("Insira o valor de K: ");
 	scanf("%d", &k);
 
-	printf("Insira a string com até %d caracteres a ser criptografada.\n", t);
+	printf("Insira a string com até %d caracteres a ser criptografada.\n", t - 1);
 	fflush (stdin);
 	__fpurge(stdin);
 	fgets(s, t, stdin);
