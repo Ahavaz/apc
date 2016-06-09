@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 100, l = 0;
+	int t = 100, l = 0, len;
 	char s[t], c;
 
 	printf("Insira uma string com até %d caracteres.\n", t);
