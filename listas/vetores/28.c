@@ -10,13 +10,13 @@
 #include <string.h>
 
 int main() {
-	int t = 100, k, l = 0, len;
+	int t = 101, k, l = 0, len;
 	char s[t], c;
 
 	printf("Insira o valor de K: ");
 	scanf("%d", &k);
 
-	printf("Insira a string com até %d caracteres a ser descriptografada.\n", t);
+	printf("Insira a string com até %d caracteres a ser descriptografada.\n", t-1);
 	fflush (stdin);
 	__fpurge(stdin);
 	fgets(s, t, stdin);
