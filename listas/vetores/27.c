@@ -22,29 +22,27 @@ int main() {
 
 	printf("Insira uma string com até %d caracteres.\n", t);
 	fflush (stdin);
-	gets(s);
+	__fpurge(stdin);
+	fgets(s, t, stdin);
 
 	len = strlen(s);
 	while (l < len) {
 		c = s[l];
+		k %= 26;
 		if (64 < c && c < 91) {
-			c += k + 32;
-			if (c > 90) {
-				c -= 26;
+			if (c + k > 90) {
+				c += k - 26;
+			} else {
+				c += k;
 			}
-		}
-		if (96 < c && c < 123) {
-			c += k;
-			if (c > 122) {
-				c -= 26;
+		} else if (96 < c && c < 123) {
+			if (c + k > 122) {
+				c += k - 26;
+			} else {
+				c += k;
 			}
 		}
 		s[l++] = c;
-	}
-
-	int i = -1;
-	while (++i < len) {
-		printf("%c", s[i]);
 	}
 
 	puts("");
