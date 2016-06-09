@@ -14,7 +14,6 @@
 #include <string.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0);
 	int t = 100, k, l = 0, len;
 	char s[t], c;
 
