@@ -9,10 +9,10 @@
 #include <stdlib.h>
 
 int main() {
-	int t = 100, l = 0, len;
+	int t = 101, l = 0, len;
 	char s[t], c;
 
-	printf("Insira uma string com até %d caracteres.\n", t);
+	printf("Insira uma string com até %d caracteres.\n", t - 1);
 	fgets(s, t, stdin);
 	
 	len = strlen(s);
