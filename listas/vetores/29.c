@@ -9,24 +9,26 @@
 #include <string.h>
 
 int main() {
-	int t = 100, n, p[t];
-	char c = ' ';
+	int n, k = 0;
 
 	printf("Insira o valor de N: ");
 	scanf("%d", &n);
 
+	long t = n * (n + 1) / 2, p[t];
+
+	puts("\n\n");
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < 2 * n; j++) {
-			if (i == n) {
-
+		for (int j = 0; j < n - i; j++) {
+			if (i == 0 || j == 0) {
+				p[k] = 1;
+				printf("%10ld ", p[k++]);
+			} else {
+				p[k] = p[k - 1] + p[k - 1 - n + i];
+				printf("%10ld ", p[k++]);
 			}
-			p[i][j] = 1;
 		}
-		puts("");
+		puts("\n\n\n\n");
 	}
-
-	puts("");
-	puts (s);
 
 	return 0;
 }
