@@ -2,7 +2,6 @@
 #include <math.h>
 
 int main(void) {
-	setvbuf(stdout, NULL, _IONBF, 0);
 	int opcao;
 	float x, y;
 	printf("Insira o valor de X: ");
