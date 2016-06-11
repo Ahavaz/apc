@@ -8,7 +8,6 @@
 #include <string.h>
 
 int main() {
-	setvbuf(stdout, NULL, _IONBF, 0);
 	int l = 101, len;
 	char s[l];
 
