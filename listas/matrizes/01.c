@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-	setvbuf(stdout, NULL, _IONBF, 0);
 	int m = 11, n = m, a[m][n], k = 0;
 
 	while (k < m) {
