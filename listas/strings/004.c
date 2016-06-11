@@ -9,7 +9,8 @@
 #include <string.h>
 
 int main() {
-	int l = 101, len, j;
+	setvbuf(stdout, NULL, _IONBF, 0);
+	int l = 101, len;
 	char s[l];
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
@@ -18,19 +19,19 @@ int main() {
 	len = strlen(s);
 	for (int i = 0; i < len; i++) {
 		switch (s[i]) {
-			case 'A':
-			case 'a':
-			case 'E':
-			case 'e':
-			case 'I':
-			case 'i':
-			case 'O':
-            case 'o':
-            case 'U':
-            case 'u':
-                    for (j = i + 1; j < len + 1; j++) {
-                        s[j-1] = s[j];
-                    }
+		case 'A':
+		case 'E':
+		case 'I':
+		case 'O':
+		case 'U':
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+			for (int j = i; j < len; j++) {
+				s[j] = s[j + 1];
+			}
 		}
 	}
 
