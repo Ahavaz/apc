@@ -11,15 +11,19 @@
 
 int main() {
 	int t = 101, k = 0, len1, len2, len3, i;
-	char s1[t], s2[t], s3[2*t];
-	puts("BORA");
-	gets(s1);
-	fflush(stdin);
-	gets(s2);
+	char s1[t], s2[t], s3[2 * t];
+
+	printf("Digite a string A (máx %d caracteres): ", t - 1);
+	fgets(s1, t, stdin);
+
+	printf("Digite a string B (máx %d caracteres): ", t - 1);
+	fflush (stdin);
+	fgets(s2, t, stdin);
 
 	len1 = strlen(s1) - 1;
 	len2 = strlen(s2) - 1;
 	len3 = len1 + len2;
+
 	for (i = 0; i < len3; i++) {
 		if (i < len1) {
 			s3[k++] = s1[i];
@@ -28,10 +32,9 @@ int main() {
 			s3[k++] = s2[i];
 		}
 	}
-	s3[len3] = '\0';
+	s3[k] = '\0';
 
-	// printf("%s", s3);
-	puts(s3);
+	printf("String C: %s", s3);
 
 	return 0;
 }
