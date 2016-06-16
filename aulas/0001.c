@@ -40,9 +40,9 @@ int main() {
         k++;
     }
     
+    s[k] = 0;
     // soma da diagonal principal
     for (i = 0; i < m; i++) {
-        s[k] = 0;
         for (j = 0; j < m; j++) {
             if (i == j) {
                 s[k] += a[i][j];
@@ -52,8 +52,8 @@ int main() {
     k++;
     
     // soma da diagonal secundária
+    s[k] = 0;
     for (i = 0; i < m; i++) {
-        s[k] = 0;
         for (j = 0; j < m; j++) {
             if (i + j == m - 1) {
                 s[k] += a[i][j];
@@ -71,7 +71,6 @@ int main() {
 	}
 	
     while (k-- > 1) {
-        printf("%d", s[k]);
         if (s[k] != s[k - 1]) {
             b = 0;
         }
@@ -79,5 +78,12 @@ int main() {
     
     b ? puts("É um quadrado mágico.") : puts("Não é um quadrado mágico.");
 
+    i = -1;
+	printf("\nVetor das somas: { ");
+	while (++i < t - 1) {
+		printf("%d, ", s[i]);
+	}
+	printf("%d }\n", s[i]);
+	
 	return 0;
 }
