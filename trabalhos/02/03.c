@@ -11,6 +11,7 @@ e pares existentes na matriz.
 
 int main() {
 	setlocale(LC_ALL, "");
+	
 	int i, j, k = 0, l = 6, m[l][l];
 
 	printf("Insira os valores da matriz M de tamanho %d.\n\n", l);
