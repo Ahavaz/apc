@@ -5,12 +5,13 @@ e pares existentes na matriz.
 ======================================================================================================================
 */
 
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 
 int main() {
 	setlocale(LC_ALL, "");
-	int i, j, k = 0, l = 6, m[6][6];
+	int i, j, k = 0, l = 6, m[l][l];
 
 	printf("Insira os valores da matriz M de tamanho %d.\n\n", l);
 
