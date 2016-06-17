@@ -1,0 +1,43 @@
+1. Faça um programa que leia uma string do teclado e diga se ela é palíndrome. Uma
+string é palíndrome quando pode ser lida tanto de trás pra frente quanto de frente
+para trás e possui exatamente a mesma sequência de caracteres. Ex.: ASA, RADAR.
+
+2. Faça um programa que troque todas as letras maiúsculas por minúsculas e as
+minúsculas por maiúsculas de uma string lida a partir do teclado.
+
+3. Faça um programa que conte quantas letras maiúsculas existem numa string lida.
+
+4. Faça um programa que conte quantas letras minúsculas existem numa string lida.
+Dicas: (1) Uma string de caracteres é um vetor do tipo char, terminado pelo caractere ‘\0’; (2) O código
+ASCII da letra ‘a’ (minúsculo) é 97 e o código da letra ‘A’ (maiúsculo) é 65, o código da letra ‘z’ é 122 e o
+código da letra ‘Z’ é 90; (3) Cuidado para não acabar convertendo aquilo que não é nem texto e nem está
+em minúsculas!
+
+5. Faça um programa que leia 2 strings (A e B) e retorne uma terceira string (C) formada
+pelos caracteres de A e B intercalados. Ex.: Se A='Quarta' e B='Segunda', a resposta
+deve ser 'QSueagrutnada'.
+
+6. Faça um programa que lê três strings (A, B e C) e imprime uma quarta string formada
+pela substituição de todas as ocorrências da string B pela string C dentro da string A.
+Ex.: Se A='Abra a porta para entrar para poder descansar calmamente', B='para' e C='e
+tente', a resposta deve ser: 'Abra a porta e tente entrar e tente descansar
+calmamente'.
+
+7. Faça um programa em C que leia uma string s, um caracter chAtual, um caracter
+chNovo e substitua todo caracter chAtual de s pelo chNovo. O programa deve
+retornar também o número de substituições.
+
+8. Faça um programa em C que leia uma string s, um caracter ch, um inteiro pos e insira o
+caracter ch na posição pos da string s.
+
+9. Faça um programa em C que leia uma string s1, uma string s2, um inteiro pos e insira a
+string s2 em s1 na posição pos.
+
+10. Faça um programa em C que leia uma string s1, uma string s2, um inteiro n e copie os
+n primeiros caracteres da string s1 na string s2.
+
+11. Faça um programa em C que leia uma string s1, uma string s2, um inteiro n e
+copie os n últimos caracteres da string s1 na string s2.
+
+12. Faça um programa em C que leia uma string s1, uma string s2, um inteiro n, um inteiro
+início e copie os n caracteres a partir da posição inicio da string s1 na string s2.
