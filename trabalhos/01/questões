@@ -1,0 +1,40 @@
+1. Faça o diagrama de blocos de um algoritmo que lê três valores a, b e c e imprime o maior deles.
+
+2. Faça o diagrama de blocos que lê um valor para o raio, calcula e imprime os seguintes resultados
+para este raio: o perímetro de uma circunferência (perímetro = 2.π.raio), a área (área = π.raio2) e o volume
+de uma esfera (volume = 4/3.π.raio3). Considere π= 3,1416.
+
+3. Desenhe o diagrama de blocos de um algoritmo que lê um valor (em graus Fahrenheit) e imprime o
+valor convertido para graus Celsius segundo a fórmula: C = (F-32).5/9 . Repita este algoritmo 30 vezes.
+
+4. Um cliente de um banco tem um saldo positivo de R$500,00. Fazer um algoritmo que leia um
+cheque que entrou e calcule o saldo, mostrando (escrevendo) o saldo na tela. Repita este algoritmo 10
+vezes.
+
+5. Uma empresa de venda de softwares paga a seu vendedor um fixo de R$800,00 por mês, mais uma
+comissão de 15% pelo seu valor de vendas no mês. Faça um algoritmo que leia o valor da venda e
+determine o salario total do funcionário. Mostre as informações que você achar necessárias.
+
+6. Uma empresa de desenvolvimento de softwares paga a seu vendedor um fixo de R$ 500.00 por mês.
+Mais um bônus de R$50.00 por sistema vendido. Faça um algoritmo que leia quantos softwares o funcionário
+vendeu e determine o salario total do funcionário. Mostre as informações que você achar necessário.
+
+7. Crie o diagrama de blocos e um programa em C para calcular o salario liquido de um funcionário,
+considerando que seu salario bruto, incide um desconto de 8,5 % de INSS para a previdência. O algoritmo
+deve mostrar o nome do funcionário, o seu salario bruto, o valor de desconto de INSS e o seu salario liquido.
+(dica: você deve pedir (ler) o valor do seu salario bruto). Repita este algoritmo até que o usuário digite 0
+(zero) no salário bruto.
+
+8. Faça o diagrama de blocos e o programa em C para um algoritmo que leia quatro valores (a, b, c e d)
+e imprime a amplitude entre eles (amplitude é a diferença entre o maior e o menor) e a média deles (média
+é a soma dos valores pela quantidade de valores).
+
+9. Faça um algoritmo em diagrama de blocos e um programa em C que leia três valores a, b e c.
+Supondo que sejam os lados de um triângulo, o algoritmo deve imprimir “equilátero” se os lados forem
+iguais, “isósceles” se apenas dois forem iguais ou “escaleno” se não tiver um lado igual ao outro. Se não for
+um triângulo (soma dos dois menores lados for menor que o valor do maior) então deverá escrever:”não é
+triângulo”. O algoritmo deve perguntar se o usuário deseja continuar.
+
+10. Sabendo-se que a solução de uma equação de 2o grau a.x^2 + b.x + c = 0 é dada pela fórmula x = [−b±√(b^2−4.a.c)]/2.a,
+apresente um diagrama de blocos de um algoritmo que, utilizando a fórmula, resolva uma equação de segundo grau e apresente
+as raízes possíveis, em função de a, b e c ou “não há raízes reais” caso não haja raízes.
