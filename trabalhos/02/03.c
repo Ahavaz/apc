@@ -21,8 +21,9 @@ int main() {
 			printf("Digite o valor da posição M[%d][%d]: ", i, j);
 			scanf("%d", &m[i][j]);
 
-			if(m[i][j] > 10 && m[i][j] % 2 == 0)
+			if(m[i][j] > 10 && m[i][j] % 2 == 0) {
 				k++;
+			}
 		}
 	}
 
@@ -34,7 +35,7 @@ int main() {
 		puts("\n");
 	}
 
-	printf("\nA matriz M possui %d valor(es) maior(es) do que 10 e par(es).\n\n", k);
+	printf("\nA matriz M possui %d valor(es) par(es) maior(es) do que 10.\n\n", k);
 
 	return 0;
 }
