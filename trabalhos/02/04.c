@@ -36,7 +36,7 @@ int main() {
 		}
 	}
 
-	printf("\nSeu nome contém %d vogal(is).\n\n", v);
+	printf("\nSeu nome contém %d vogais.\n\n", v);
 
 	return 0;
 }
