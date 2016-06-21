@@ -1,30 +1,32 @@
 /*
- ============================================================================================================================
- Faça um programa que lê uma string e verifica se ela é palíndrome.
- ============================================================================================================================
- */
+============================================================================================================================
+Faça um programa que lê uma string e verifica se ela é palíndrome.
+============================================================================================================================
+*/
 
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 
 int main() {
+	setlocale(LC_ALL, "");
+
 	int l = 101, len;
-	char s[l];
+	char s[101];
 	_Bool b = 1;
 
 	printf("Insira uma string com até %d caracteres.\n\n", l - 1);
+	gets(s);
 
-	fgets(s, l, stdin);
-
-	len = strlen(s) - 1;
-	for (int i = 0, j = len - i - 1; i < j; i++, j--) {
+	len = strlen(s);
+	for (int i = 0, j = len - 1 - i; i < j; i++, j--) {
 		if (s[i] != s[j]) {
 			b = 0;
 			break;
 		}
 	}
 
-	b ? printf("A string é palíndrome.") : printf("A string não é palíndrome.");
+	b ? printf("\nA string é palíndrome.\n") : printf("\nA string não é palíndrome.\n");
 
 	return 0;
 }
