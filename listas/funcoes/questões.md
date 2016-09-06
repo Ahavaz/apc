@@ -22,4 +22,4 @@ Idade        | Categoria
  8 - 10 anos | Infantil B
 11 - 13 anos | Juvenil A
 14 - 17 anos | Juvenil B
-18 anos +    | Adulto
+18+ anos     | Adulto
