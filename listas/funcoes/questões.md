@@ -31,7 +31,22 @@ Idade        | Categoria
 14 - 17 anos | Juvenil B
 18+ anos     | Adulto
 
+[09.][09] Escreva uma função que recebe, por parâmetro, um valor inteiro e positivo e retorna o somatório desse
+valor.
+[10.][10] Faça uma função que recebe um valor inteiro e verifica se o valor é par ou ímpar. A função deve retornar
+um valor que represente booleano.
+[11.][11] Faça uma função que recebe, por parâmetro, a altura (alt) e o sexo de uma pessoa e retorna o seu
+peso ideal. Para homens, calcular o peso ideal usando a fórmula peso ideal = 72.7 x alt - 58 e, para
+mulheres, peso ideal = 62.1 x alt - 44.7.
+[12.][12] Faça uma função que recebe a média final de um aluno por parâmetro e retorna o seu conceito,
+conforme a tabela abaixo:
 
+Nota       | Conceito
+-----------|-----------
+0,0 - 4,9  | D
+5,0 - 6,9  | C
+7,0 - 8,9  | B
+9,0 - 10,0 | A
 
 [01]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/01.c
 [02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
@@ -41,3 +56,7 @@ Idade        | Categoria
 [06]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
 [07]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
 [08]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[09]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[10]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[11]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[12]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
