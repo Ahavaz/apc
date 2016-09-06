@@ -15,6 +15,7 @@ a soma dos seus divisores excetuando ele próprio. (Ex: 6 é perfeito, 6 = 1 + 2
 A função deve retornar um valor que represente booleano.
 8. Faça uma função que recebe a idade de um nadador por parâmetro e retorna, também por parâmetro,
 a categoria desse nadador de acordo com a tabela abaixo:
+
 Idade | Categoria
 ---|---
 5 a 7 anos | Infantil A
