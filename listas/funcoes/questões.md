@@ -1,5 +1,5 @@
 [01.][01] Faça uma função que recebe por parâmetro o raio de uma esfera e calcula o seu volume. V = (4 * PI * r³)/3
-2. Escreva uma função que recebe as 3 notas de um aluno por parâmetro e uma letra. Se a letra for A o
+[02.][02] Escreva uma função que recebe as 3 notas de um aluno por parâmetro e uma letra. Se a letra for A o
 procedimento calcula a média aritmética das notas do aluno, se for P, a sua média ponderada (pesos: 5, 3
 e 2) e se for H, a sua média harmônica. A média calculada também deve retornar por parâmetro.
 3. Faça uma função que recebe por parâmetro um valor inteiro e positivo e retorna o valor lógico Verdadeiro
@@ -25,3 +25,4 @@ Idade        | Categoria
 18+ anos     | Adulto
 
 [01]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/01.c
+[02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
