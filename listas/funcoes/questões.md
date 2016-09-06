@@ -35,7 +35,9 @@ Idade        | Categoria
 
 [01]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/01.c
 [02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
-[02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
-[02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
-[02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
-[02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c[02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[03]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[04]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[05]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[06]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[07]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[08]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
