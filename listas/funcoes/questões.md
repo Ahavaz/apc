@@ -33,11 +33,14 @@ Idade        | Categoria
 
 [09.][09] Escreva uma função que recebe, por parâmetro, um valor inteiro e positivo e retorna o somatório desse
 valor.
+
 [10.][10] Faça uma função que recebe um valor inteiro e verifica se o valor é par ou ímpar. A função deve retornar
 um valor que represente booleano.
+
 [11.][11] Faça uma função que recebe, por parâmetro, a altura (alt) e o sexo de uma pessoa e retorna o seu
 peso ideal. Para homens, calcular o peso ideal usando a fórmula peso ideal = 72.7 x alt - 58 e, para
 mulheres, peso ideal = 62.1 x alt - 44.7.
+
 [12.][12] Faça uma função que recebe a média final de um aluno por parâmetro e retorna o seu conceito,
 conforme a tabela abaixo:
 
@@ -47,6 +50,51 @@ Nota       | Conceito
 5,0 - 6,9  | C
 7,0 - 8,9  | B
 9,0 - 10,0 | A
+
+[13.][13] Faça uma função que recebe 3 valores inteiros por parâmetro e retorna-os ordenados em ordem
+crescente.
+
+[14.][14] Faça uma função que recebe, por parâmetro, a hora de inicio e a hora de término de um jogo, ambas
+subdivididas em 2 valores distintos: horas e minutos. O procedimento deve retornar, também por
+parâmetro, a duração do jogo em horas e minutos, considerando que o tempo máximo de duração de um
+jogo é de 24 horas e que o jogo pode começar em um dia e terminar no outro.
+
+[15.][15] Escreva uma função que recebes 3 valores reais X, Y e Z e que verifique se esses valores podem ser
+os comprimentos dos lados de um triângulo e, neste caso, retornar qual o tipo de triângulo formado. Para
+que X, Y e Z formem um triângulo é necessário que a seguinte propriedade seja satisfeita: o comprimento
+de cada lado de um triângulo é menor do que a soma do comprimento dos outros dois lados. O
+procedimento deve identificar o tipo de triângulo formado observando as seguintes definições:
+o Triângulo Equilátero: os comprimentos dos 3 lados são iguais.
+o Triângulo Isósceles: os comprimentos de 2 lados são iguais.
+o Triângulo Escaleno: os comprimentos dos 3 lados são diferentes.
+
+[16.][16] A prefeitura de uma cidade fez uma pesquisa entre os seus habitantes, coletando dados sobre o salário
+e número de filhos. Faça uma função que leia esses dados para um número não determinado de pessoas
+e retorne a média de salário da população, a média do número de filhos, o maior salário e o percentual de
+pessoas com salário até R$350,00.
+
+[17.][17] Faça uma função que leia um número não determinado de valores positivos e retorna a média aritmética
+dos mesmos.
+
+[18.][18] Faça uma função que receba um valor inteiro e positivo e calcula o seu fatorial.
+
+[19.][19] Faça uma função que lê 50 valores inteiros e retorna o maior e o menor deles.
+
+[20.][20] Faça uma função que recebe, por parâmetro, um valor N e calcula e escreve a tabuada de 1 até N.
+Mostre a tabuada na forma:
+1 x N = N
+2 x N = 2N
+...
+N x N = N2
+
+[21.][21] Faça uma função que recebe, por parâmetro, um valor inteiro e positivo e retorna o número de divisores
+desse valor.
+
+[22.][22] Escreva uma função que recebe por parâmetro um valor inteiro e positivo N e retorna o valor de S.
+S = 1 + ½ + 1/3 + ¼ + 1/5 + 1/N.
+
+[23.][23] Escreva uma função que recebe por parâmetro um valor inteiro e positivo N e retorna o valor de S.
+S = 1 + 1/1! + 1/2! + 1/3! + 1/N!
 
 [01]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/01.c
 [02]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
@@ -60,3 +108,14 @@ Nota       | Conceito
 [10]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
 [11]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
 [12]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[13]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/01.c
+[14]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[15]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[16]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[17]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[18]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[19]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/02.c
+[20]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/20.c
+[21]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/21.c
+[22]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/22.c
+[23]: https://github.com/Ahavaz/apc/blob/master/listas/funcoes/23.c
